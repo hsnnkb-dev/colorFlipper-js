@@ -3,7 +3,6 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener("click", function() {
-    // get random number between 0 and 3
     let hexColour = "#";
     for (let i = 0; i < 6; i++) {
         let randomNumber = getRandomNumber();
